@@ -1,0 +1,194 @@
+/* Reset default styles for all elements */
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    align-items: center;
+    background-size: cover;
+}
+
+/* Body styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(1, 1, 17);
+    height: calc(100vh - 80px); /* Adjusted height to account for the header */
+    text-align: center;
+    border: 2px solid aqua;
+    border-radius: 20px;
+}
+.pre{
+    
+    padding: 15px;
+    border-radius: 20px;
+    background: transparent;
+    width: 100px;
+    color: aqua;
+   
+}
+
+.h3-3{
+    color: black;
+    background: aqua;
+
+}
+
+.skill-li{
+    padding: 10px;
+}
+
+.skills{
+    color: aqua;
+
+}
+
+/* Navigation links */
+ul li.link a {
+    padding: 7px 13px;
+    border-radius: 20px;
+    width: 200px;
+    height: 30px;
+    background: #101312;
+    color: aqua;
+}
+
+/* Box styling */
+.list-box {
+    border: 2px solid aqua;
+    border-radius: 15px;
+    padding: 25px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+.pro-h2{
+    color: aqua;
+}
+
+.list-box h2 {
+    font-size: 24px; /* Adjusted font size */
+    margin-left: 50px;
+}
+
+.list-box ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Image styling */
+img {
+    border-radius: 20px;
+    margin: 20px;
+    margin-left: 20px;
+}
+
+/* Header styling */
+h1 {
+    background: transparent;
+    border-radius: 20px;
+    padding: 7px;
+    border: 1px dashed aqua;
+    color: aqua;
+    
+}
+
+/* Footer styling */
+.footer {
+    border: 2px solid aqua;
+    border-radius: 20px;
+    padding: 20px;
+    background: rgb(2, 2, 37);
+}
+
+/* Project link styling */
+.project-link {
+    display: inline-block;
+    text-decoration: none;
+    border: 2px solid aqua;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 10px;
+    padding: 20px;
+    color: aqua;
+    background: transparent;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    height: 400px;
+    
+}
+.back{
+    color: aqua;
+
+}
+
+.name{
+    color: aqua;
+    padding: 10px;
+}
+.h33{
+    color: aquamarine;
+    font-size: 40px;
+    
+}
+.text1{
+    color: blanchedalmond;
+}
+
+.project-h3{
+    color: aqua;
+    font-size: 40px;
+}
+
+p{
+    color: aqua;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.project-link img {
+    width: 200px;
+    height: 50%;
+    display: block;
+}
+
+/* Media Queries for responsiveness */
+@media only screen and (max-width: 768px) {
+    /* Adjustments for smaller screens */
+    .list-box {
+        width: 100%; /* Full width on smaller screens */
+        margin-left: 0; /* Remove left margin */
+    }
+
+    p{
+        width: 100%;
+        padding: 0;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    img{
+        width: 200px;
+    }
+    #img2{
+        max-width: 75px;
+        padding: 0;
+        margin: o;
+    }
+    
+    
+    h1 {
+        width: auto; /* Adjusted width for smaller screens */
+        
+
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    /* Adjustments for even smaller screens */
+    .list-box {
+        padding: 15px; /* Reduced padding */
+    }
+
+    h1 {
+        font-size: 24px; /* Adjusted font size */
+    }
+}
